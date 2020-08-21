@@ -1,0 +1,312 @@
+body {
+  box-sizing: border-box;
+}
+
+.header {
+  margin-top: -0.7%;
+  display: block;
+  background-color: black;
+  height: 25px;
+  width: 1358px;
+}
+
+.header a {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  padding: 14px 7px;
+  padding: 1px;
+  color: rgb(136, 134, 134);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.dropdown {
+  float: left;
+  margin-left: 5%;
+}
+
+.dropdown1 {
+  float: left;
+  margin-left: 2%;
+}
+
+.dropdown a {
+  color: rgb(136, 134, 134);
+}
+
+.dropdown1 a {
+  color: rgb(136, 134, 134);
+}
+
+.drop {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+
+  z-index: 1;
+}
+
+.dropp {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+
+  z-index: 1;
+}
+
+.drop a {
+  float: none;
+  color: white;
+  padding: 12px 7px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border: 1px solid grey;
+}
+
+.dropp a {
+  float: none;
+  color: white;
+  padding: 12px 7px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border: 1px solid grey;
+}
+
+.header a:hover,
+.dropdown:hover button {
+  color: rgb(226, 223, 223);
+}
+
+.header a:hover,
+.dropdown1:hover button {
+  color: rgb(226, 223, 223);
+}
+
+.dropdown:hover .drop {
+  display: block;
+}
+
+.dropdown1:hover .dropp {
+  display: block;
+}
+
+.header .head {
+  float: right;
+  margin-right: 2%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(126, 125, 125);
+  font-family: Shentox, sans-serif;
+  font-size: 14px;
+  margin: 7px;
+}
+
+.nav a:hover {
+  color: black;
+}
+
+.nav {
+  /*border: 1px solid black;*/
+  margin-top: 0.2%;
+  height: 35px;
+  width: 1356px;
+  position: fixed;
+  background-color: white;
+}
+
+.nav .right {
+  float: right;
+  margin-top: -1%;
+  margin-right: 21%;
+}
+
+.right button {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  background: rgb(119, 214, 238);
+  margin: 10px;
+  font-weight: bold;
+  font-size: 11px;
+  color: white;
+  float: right;
+  height: 28px;
+  margin-top: 1%;
+}
+
+.right button:hover {
+  background: purple;
+}
+
+.bar {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  background-color: rgb(255, 221, 51);
+  margin-top: 2.5%;
+  font-size: 14px;
+  height: 30px;
+  width: 1342px;
+  line-height: 25px;
+  position: fixed;
+}
+
+.main {
+  margin-top: 5%;
+}
+
+.main .wheel {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(255, 0, 0, 0.52),
+      rgba(29, 28, 28, 0.73)
+    ),
+    url("wheel.png");
+  width: 60%;
+  height: 450px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+.main .join {
+  background-image: url("join.jpg");
+  width: 33.7%;
+  height: 300px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  float: right;
+  margin-top: -36.75%;
+  height: 200px;
+}
+
+.main .google {
+  background-image: url("google.jpg");
+  width: 33.7%;
+  height: 300px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  float: right;
+  margin-top: -18%;
+  height: 200px;
+}
+
+.news {
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.news h1 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 31px;
+  color: rgb(245, 53, 53);
+  font-family: Avalon, sans-serif;
+}
+
+.news img {
+  height: 200px;
+  width: 300px;
+}
+
+.news a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.news a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.ads {
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.ads h1 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 31px;
+  color: rgb(245, 53, 53);
+  font-family: Avalon, sans-serif;
+}
+
+.ads img {
+  height: 250px;
+  width: 430px;
+}
+
+.deals {
+  margin-top: 20%;
+}
+
+.deals h1 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 31px;
+  color: rgb(245, 53, 53);
+  font-family: Avalon, sans-serif;
+  margin-left: 0%;
+}
+
+.deals h1:hover {
+  color: black;
+}
+
+.deals h2:hover {
+  color: black;
+}
+
+.deals {
+  margin-left: 5%;
+}
+
+.deals h2 {
+  font-size: 20px;
+  line-height: 31px;
+  color: rgb(245, 53, 53);
+  font-family: Avalon, sans-serif;
+  float: right;
+  font-weight: normal;
+  margin-top: -4%;
+  margin-right: 6%;
+}
+
+.deals img {
+  height: 200px;
+  width: 300px;
+}
+
+.footer .logo {
+  background: rgb(19, 19, 19);
+  height: 150px;
+}
+
+.footer {
+  margin-top: 10%;
+  background: black;
+  height: 250px;
+}
+
+.logo img {
+  margin: 10px;
+  margin-top: 3%;
+  height: 35px;
+  width: 35px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+  margin: 5px;
+  font-size: 13px;
+}
